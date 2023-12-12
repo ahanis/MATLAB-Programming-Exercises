@@ -32,3 +32,11 @@ Your program should then calculate the parking bill.
 ## Question 4: Prime Pairs Function
 
 Write a function called `prime_pairs` that returns the smallest prime number `p` smaller than 100,000 such that `(p + n)` is also prime, where `n` is a scalar integer and is the sole input argument to the function. If no such number exists, then the function returns -1. You may use the built-in functions `primes` and `isprime`. Note that an efficient solution to this problem, such as the one the grader uses, takes a fraction of a second, but depending on how you do it, yours may be significantly slower.
+
+## Question 5: Bell Triangle Function
+
+Write a function called `bell` that returns the first `n` rows of the Bell triangle, where `n` is an input argument. For a precise definition, see [Bell triangle on Wikipedia](http://en.wikipedia.org/wiki/Bell_triangle). The function must return an `n`-by-`n` array where the top left triangle contains the Bell triangle with each row of the Bell triangle positioned diagonally—bottom-left-to-upper-right—and the bottom right triangle contains only zeros. If `n` is not a positive integer, the function returns an empty array.
+
+## Question 6: MATLAB Game Development
+
+Create an innovative game using MATLAB that prompts the user to choose a level (e.g., easy, intermediate, or difficult). The program should be user-friendly, useful, and creative. It should guide the player with proper instructions to play. Describe what is new or extended (if based on any existing game) in your game as this will be one of the main contributions to this program. Congratulate the player if they get the correct answer or alert the user of the correct move if the game is played incorrectly. The game program should also keep track of the highest score with the name of the player, displaying these running totals at the end of the game. You must decompose your solution into small functions, each of which performs a specific task.
